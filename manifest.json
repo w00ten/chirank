@@ -1,13 +1,13 @@
 {
   "name": "Chirank Indo (CloudX Nuvio)",
-  "version": "1.0.0",
-  "description": "Provider film & series Indonesia (LK21/NontonDrama & Savefilm) diadaptasi untuk Nuvio Mobile & Nuvio TV.",
+  "version": "1.1.0",
+  "description": "Alternatif Idlix tercepat & terlengkap (LK21/NontonDrama, PusatFilm, LayarAsia, Savefilm21) untuk Nuvio Mobile & Nuvio TV.",
   "author": "w00ten",
   "scrapers": [
     {
       "id": "lk21",
       "name": "LK21",
-      "description": "LayarKaca21 & NontonDrama - Film & Series Sub Indo (P2P / Hydrax HD)",
+      "description": "LayarKaca21 & NontonDrama - Koleksi Film & Series Terlengkap & Terbaru (1080p Hydrax / P2P HLS)",
       "version": "1.0.0",
       "author": "w00ten",
       "supportedTypes": ["movie", "tv"],
@@ -17,9 +17,33 @@
       "contentLanguage": ["id", "en"]
     },
     {
+      "id": "pusatfilm",
+      "name": "PusatFilm",
+      "description": "PusatFilm21 - Film & Series Terbaru Sub Indo (1080p Hydrax / KotakAjaib)",
+      "version": "1.0.0",
+      "author": "w00ten",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/pusatfilm.js",
+      "enabled": true,
+      "formats": ["m3u8", "mp4"],
+      "contentLanguage": ["id", "en"]
+    },
+    {
+      "id": "layarasia",
+      "name": "LayarAsia",
+      "description": "LayarAsia - Drakor, Drachin, J-Drama & Film Asia Terbaru Sub Indo",
+      "version": "1.0.0",
+      "author": "w00ten",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/layarasia.js",
+      "enabled": true,
+      "formats": ["m3u8", "mp4"],
+      "contentLanguage": ["id", "ko", "zh", "ja"]
+    },
+    {
       "id": "savefilm",
       "name": "Savefilm21",
-      "description": "Savefilm21 - Film & Series Sub Indo (StreamWish / Earnvids)",
+      "description": "Savefilm21 - Film & Series Sub Indo (StreamWish / Earnvids HLS)",
       "version": "1.0.0",
       "author": "w00ten",
       "supportedTypes": ["movie", "tv"],

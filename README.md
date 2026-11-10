@@ -1,6 +1,6 @@
 # Chirank Indo — Nuvio Providers
 
-Koleksi provider film & serial Sub Indo yang diadaptasi dari logika **CloudX / Nonton-Indo** agar berjalan natively di **Nuvio Mobile/Tablet (`com.nuvio.app`)** dan **Nuvio TV (`com.nuvio.tv`)** menggunakan JavaScript runtime (`manifest.json`).
+Alternatif **Idlix** paling lengkap, cepat, dan selalu update untuk koleksi film & serial Sub Indo, berjalan natively di **Nuvio Mobile/Tablet (`com.nuvio.app`)** dan **Nuvio TV (`com.nuvio.tv`)**.
 
 ## Cara Pasang di Nuvio
 
@@ -12,7 +12,9 @@ https://raw.githubusercontent.com/w00ten/chirank/main/manifest.json
 
 ## Daftar Provider
 
-| Provider | Tipe | Sumber Stream |
+| Provider | Tipe | Keunggulan & Sumber Stream |
 |---|---|---|
-| **LK21** | Movie & TV Series | LK21 + NontonDrama (`playcdn.de` HLS & `Hydrax` 1080p/720p) |
-| **Savefilm21** | Movie & TV Series | Savefilm21 (`StreamWish` / `Earnvids` HLS) |
+| **LK21** | Movie & TV Series | LK21 + NontonDrama (`playcdn.de` HLS & `Hydrax` 1080p/720p), koleksi paling lengkap & update harian |
+| **PusatFilm** | Movie & TV Series | PusatFilm21 (`kotakajaib.me` → `Hydrax` 1080p/720p), server cepat untuk film & series Barat/Indo |
+| **LayarAsia** | Movie & TV Series | LayarAsia (`Hydrax` 1080p/720p & HLS), spesialis Drakor, Drachin, J-Drama & film Asia terbaru |
+| **Savefilm21** | Movie & TV Series | Savefilm21 (`StreamWish` / `Earnvids` HLS), mirror tambahan Sub Indo |
