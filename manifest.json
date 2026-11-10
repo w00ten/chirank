@@ -1,0 +1,32 @@
+{
+  "name": "Chirank Indo (CloudX Nuvio)",
+  "version": "1.0.0",
+  "description": "Provider film & series Indonesia (LK21/NontonDrama & Savefilm) diadaptasi untuk Nuvio Mobile & Nuvio TV.",
+  "author": "w00ten",
+  "scrapers": [
+    {
+      "id": "lk21",
+      "name": "LK21",
+      "description": "LayarKaca21 & NontonDrama - Film & Series Sub Indo (P2P / Hydrax HD)",
+      "version": "1.0.0",
+      "author": "w00ten",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/lk21.js",
+      "enabled": true,
+      "formats": ["m3u8", "mp4"],
+      "contentLanguage": ["id", "en"]
+    },
+    {
+      "id": "savefilm",
+      "name": "Savefilm21",
+      "description": "Savefilm21 - Film & Series Sub Indo (StreamWish / Earnvids)",
+      "version": "1.0.0",
+      "author": "w00ten",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/savefilm.js",
+      "enabled": true,
+      "formats": ["m3u8", "mp4"],
+      "contentLanguage": ["id", "en"]
+    }
+  ]
+}
